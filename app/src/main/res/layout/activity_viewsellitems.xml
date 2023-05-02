@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/purp"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButtonSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="18dp"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="83dp"
+        android:layout_toEndOf="@+id/imageButtonBack"
+        android:backgroundTint="#404040"
+        android:ems="10"
+        android:hint="Search..."
+        android:inputType="textPersonName" />
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="415dp"
+        android:layout_marginTop="211dp"
+        android:layout_marginEnd="0dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerViewPersonalItem"
+            android:layout_width="match_parent"
+            android:layout_height="415dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="211dp"
+            android:layout_marginEnd="0dp" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editTextSearch"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="-70dp"
+        android:drawableLeft="@android:drawable/ic_menu_add"
+        android:gravity="center"
+        android:text="ADD ITEM" />
+
+    <ImageButton
+        android:id="@+id/imageButtonBack"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "231602049333",
+    "project_id": "codeconverters-a6b3c",
+    "storage_bucket": "codeconverters-a6b3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231602049333:android:efb06b976f033328b8fc7c",
+        "android_client_info": {
+          "package_name": "codeconverters.loginpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231602049333-n5ohtbism3v24i794ftrj2pffm3cco06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVZAcbIWINfJXHEROzCjBCtUjuN-HpGs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231602049333-n5ohtbism3v24i794ftrj2pffm3cco06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

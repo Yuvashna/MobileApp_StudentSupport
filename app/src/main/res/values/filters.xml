@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filters">
+        <item>Filters</item>
+        <item>Alphabetical(A-Z)</item>
+        <item>Alphabetical(Z-A)</item>
+        <item>Price(ASC)</item>
+        <item>Price(DESC)</item>
+    </string-array>
+</resources>
